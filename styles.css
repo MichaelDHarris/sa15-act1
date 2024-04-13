@@ -1,0 +1,29 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+}
+
+#quiz {
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+#question {
+    margin-bottom: 30px;
+}
+#answers {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px;
+}
+button {
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+button:hover {
+    background-color: darkgrey;
+}
